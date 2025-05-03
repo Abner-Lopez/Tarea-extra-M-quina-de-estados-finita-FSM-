@@ -1,0 +1,297 @@
+$date
+	Fri May 02 22:10:41 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Maquina_FSM_tb $end
+$var wire 1 ! UNLOCK $end
+$var wire 1 " INC $end
+$var wire 1 # ERROR $end
+$var wire 1 $ CLRTIMER $end
+$var wire 1 % CLRCNTR $end
+$var reg 1 & ECNT3 $end
+$var reg 1 ' LOCKED $end
+$var reg 1 ( PUSHED $end
+$var reg 1 ) WAITDONE $end
+$var reg 1 * clk $end
+$var reg 1 + rst $end
+$var reg 4 , tecla [3:0] $end
+$scope module dut $end
+$var wire 1 & ECNT3 $end
+$var wire 1 ' LOCKED $end
+$var wire 1 ( PUSHED $end
+$var wire 1 ) WAITDONE $end
+$var wire 1 * clk $end
+$var wire 1 + rst $end
+$var wire 4 - tecla [3:0] $end
+$var reg 1 % CLRCNTR $end
+$var reg 1 $ CLRTIMER $end
+$var reg 1 # ERROR $end
+$var reg 1 " INC $end
+$var reg 1 ! UNLOCK $end
+$var reg 7 . next_state [6:0] $end
+$var reg 7 / state [6:0] $end
+$upscope $end
+$scope task push_and_check $end
+$var reg 4 0 key [3:0] $end
+$var reg 1 1 expect_error $end
+$var reg 1 2 expect_inc $end
+$var reg 1 3 expect_unlock $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+03
+02
+01
+bx 0
+b1 /
+b1 .
+b0 -
+b0 ,
+1+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000
+1*
+#10000
+0*
+#12000
+b10 .
+1(
+b111 ,
+b111 -
+b111 0
+0+
+#15000
+1#
+1"
+b10000 .
+b10 /
+1*
+#20000
+0*
+#22000
+0#
+0"
+b10 .
+0(
+#25000
+1*
+#30000
+0*
+#32000
+b100 .
+1(
+b1000 ,
+b1000 -
+b1000 0
+#35000
+1#
+1"
+b10000 .
+b100 /
+1*
+#40000
+0*
+#42000
+0#
+0"
+b100 .
+0(
+#45000
+1*
+#50000
+0*
+#52000
+1!
+b1000 .
+1(
+b1001 ,
+b1001 -
+13
+b1001 0
+#55000
+0!
+b1000 /
+1*
+#60000
+0*
+#62000
+0(
+#65000
+1*
+#70000
+0*
+#72000
+1%
+b1 .
+1'
+#75000
+0%
+b1 /
+1*
+#80000
+0*
+#82000
+b10 .
+1(
+b111 ,
+b111 -
+03
+b111 0
+0'
+#85000
+1#
+1"
+b10000 .
+b10 /
+1*
+#90000
+0*
+#92000
+0#
+0"
+b10 .
+0(
+#95000
+1*
+#100000
+0*
+#102000
+1#
+1"
+b10000 .
+1(
+b101 ,
+b101 -
+12
+11
+b101 0
+#105000
+0#
+0"
+b1 .
+b10000 /
+1*
+#110000
+0*
+#112000
+b1 .
+0(
+#115000
+b1 /
+1*
+#120000
+0*
+#122000
+1&
+#125000
+1*
+#130000
+0*
+#132000
+1)
+0&
+#135000
+1*
+#140000
+0*
+#142000
+b10 .
+1(
+b111 ,
+b111 -
+02
+01
+b111 0
+0)
+#145000
+1#
+1"
+b10000 .
+b10 /
+1*
+#150000
+0*
+#152000
+0#
+0"
+b10 .
+0(
+#155000
+1*
+#160000
+0*
+#162000
+b100 .
+1(
+b1000 ,
+b1000 -
+b1000 0
+#165000
+1#
+1"
+b10000 .
+b100 /
+1*
+#170000
+0*
+#172000
+0#
+0"
+b100 .
+0(
+#175000
+1*
+#180000
+0*
+#182000
+1!
+b1000 .
+1(
+b1001 ,
+b1001 -
+13
+b1001 0
+#185000
+0!
+b1000 /
+1*
+#190000
+0*
+#192000
+0(
+#195000
+1*
+#200000
+0*
+#202000
+1%
+b1 .
+1'
+#205000
+0%
+b1 /
+1*
+#210000
+0*
+#212000
+0'
